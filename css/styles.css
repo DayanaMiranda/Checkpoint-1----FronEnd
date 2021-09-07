@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Mono:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-image:url(../img/juiz-de-fora-por-do-sol-2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 4px 5px rgb(118, 49, 128);
+    font-size: 40px;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#introducao {
+    padding: 30px 30px 30px 30px;
+    text-align: justify;
+}
+
+#video iframe {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+#lista {
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(169, 169, 169, 0.781);
+    border-style: dotted;
+    border-color: rgb(155, 46, 137);
+    text-align: justify;
+}
+
+#lista li {
+    margin-bottom: 15px;
+}
+
+footer {
+    padding: 30px;
+}
+
+#rodape{
+    text-align: center;
+}
+
+#rodape img{
+    width: 50px;
+}
